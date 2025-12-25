@@ -14,10 +14,6 @@ spec:
     targetRevision: 1.5.0
     helm:
       parameters:
-        - name: api.adminAccount.passwordHash
-          value: "$$2y$$10$$AHo42TSVFtEQPlTO6lPlH.jMQKrJN9yJxsE2F6zot2SrIfnBfpwVu"
-        - name: api.adminAccount.tokenSigningKey
-          value: "1nOOlPfrLLyR4NZt3oeuCgdzXejgelum"
         - name: crds.install
           value: "true"
   syncPolicy:
